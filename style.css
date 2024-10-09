@@ -2,11 +2,6 @@ html{
     height: 100%;
 }
 
-container{
-    width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-}
 header{
     background-color:blue;
     color: aliceblue;
