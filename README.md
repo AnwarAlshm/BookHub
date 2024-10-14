@@ -10,4 +10,18 @@ Choosing a name for the project was simple, but it had to be easy to remember an
 Our group members determined that everyone give a name that they believe will help the project, and the one that everyone agrees on will be our project name and one of the names was 'BookStore,OpenBook,BookLine' etc 
 BookHub was the most agreed on name that is unique and easy to remember.
 # State That the Project is Free
+BookHub is a free open-source project with a user-friendly interface. The platform is open to all users and developers, encouraging collaboration and innovation. Key features will include book cataloging, user administration, and loan tracking, all with the goal of increasing library operations and user pleasure. The system will be accessible to users, librarians, developers, and library staff.
+# Features and Requirements List
+# Features:
+User-Friendly Editor: A simple, minimalist editor that supports the insertion of dynamic content blocks. It is fully open source and extensible.
+Access for All: Both visitors and registered users can browse all categories and book titles.
+Simple Ordering Process: Users can effortlessly borrow and return things using the internet.
+Customizable Structure: Create any category, section, or flow to match your individual library requirements.
+Administrative Features:
+The most user-friendly open-source interface available today.
+Sorting and filtering are built-in capabilities, making it simple to manage thousands of records.
+Admins can manage user accounts, categories, and book listings.
+Order tracking enables administrators to handle and monitor book loans and returns.
+Advanced Reporting: Comprehensive reporting and data management capabilities for effective oversight.
+# Requirements:
 
