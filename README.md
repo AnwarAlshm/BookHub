@@ -13,15 +13,33 @@ BookHub was the most agreed on name that is unique and easy to remember.
 BookHub is a free open-source project with a user-friendly interface. The platform is open to all users and developers, encouraging collaboration and innovation. Key features will include book cataloging, user administration, and loan tracking, all with the goal of increasing library operations and user pleasure. The system will be accessible to users, librarians, developers, and library staff.
 # Features and Requirements List
 # Features:
-User-Friendly Editor: A simple, minimalist editor that supports the insertion of dynamic content blocks. It is fully open source and extensible.
-Access for All: Both visitors and registered users can browse all categories and book titles.
-Simple Ordering Process: Users can effortlessly borrow and return things using the internet.
-Customizable Structure: Create any category, section, or flow to match your individual library requirements.
-Administrative Features:
-The most user-friendly open-source interface available today.
-Sorting and filtering are built-in capabilities, making it simple to manage thousands of records.
-Admins can manage user accounts, categories, and book listings.
-Order tracking enables administrators to handle and monitor book loans and returns.
-Advanced Reporting: Comprehensive reporting and data management capabilities for effective oversight.
+-User-Friendly Editor: A simple, minimalist editor that supports the insertion of dynamic content blocks. It is fully open source and extensible.
+-Access for All: Both visitors and registered users can browse all categories and book titles.
+-Simple Ordering Process: Users can effortlessly borrow and return things using the internet.
+-Customizable Structure: Create any category, section, or flow to match your individual library requirements.
+# Administrative Features:
+-The most user-friendly open-source interface available today.
+-Sorting and filtering are built-in capabilities, making it simple to manage thousands of records.
+-Admins can manage user accounts, categories, and book listings.
+-Order tracking enables administrators to handle and monitor book loans and returns.
+-Advanced Reporting: Comprehensive reporting and data management capabilities for effective oversight.
 # Requirements:
+-The project is built with HTML, CSS, PHP on an Apache server running XAMPP.
+-Any text editor that you prefer, such as Atom or Visual Studio Code.
+# Development Status
+Under Development — Currently in beta phase.
+The BookHub system has successfully finished its core design and early functionality.
+Ongoing development is centered on improving features such as book cataloging, user management, and loan monitoring, with assistance from developers and others who choose to participate.
+Each new feature and enhancement will be added to the repository as they are done, encouraging transparency and collaboration within the community.
+# Downloads
+1-To run the BookHub system, you must first download and install XAMPP.
+2-Download by clicking the download button in the platform.
+3-Install a text editor.
+Select your preferred text editor for coding, such as:
+Visual Studio Code, Atom or other text editor
+# Version Control and Bug Tracker Access
+Version control and bug tracking are critical tools for the BookHub project. They are useful for:
+Developers and users: To obtain the most recent source code and make modifications or improvements.
+Updates and resources: Check out the materials and get updates on the project's development.
+Your involvement is valuable to the success of BookHub!
 
