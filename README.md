@@ -44,13 +44,13 @@ Updates and resources: Check out the materials and get updates on the project's 
 Your involvement is valuable to the success of BookHub!
 # Communication Channels 
 BookHub encourages active communication among developers, users, and contributors through multiple platforms:
-GitHub Issues and Discussions: A primary communication channel for reporting bugs, requesting features, and general discussions about the project's development.
-Social Media: BookHub maintains a presence on Instagram to share updates, community contributions, and new releases. 
-Mailing list: Google Groups will manage a mailing list for broader announcements, updates, and user submissions (questions, comments, or other feedback).
+- GitHub Issues and Discussions: A primary communication channel for reporting bugs, requesting features, and general discussions about the project's development.
+- Social Media: BookHub maintains a presence on Instagram to share updates, community contributions, and new releases. 
+- Mailing list: Google Groups will manage a mailing list for broader announcements, updates, and user submissions (questions, comments, or other feedback).
 # Developer Guidelines 
 To maintain quality and consistency across the project, BookHub follows these developer guidelines:
-Code Standards: Follow PHP, HTML, and CSS best practices, ensuring code is clean, readable, and well-commented.
-Commit Messages: Use clear and concise commit messages, indicating the scope of changes.
+-Code Standards: Follow PHP, HTML, and CSS best practices, ensuring code is clean, readable, and well-commented.
+-Commit Messages: Use clear and concise commit messages, indicating the scope of changes.
 # Documentation 
 Our documentation aims to provide an overview of what we have developed so far, even though the project is still a work in progress. The goal is to offer insights into the current functionality, as well as guidance on expected features and best practices. While we are new to managing an open-source project, this documentation will serve as a foundation for users and contributors to understand the system.
 It is important to note that the documentation is not yet fully complete and will be updated by a project moderator as new features are added and improvements are made. We encourage feedback and contributions to help us enhance the documentation over time.
@@ -78,8 +78,8 @@ The BookHub system will be hosted on:
 GitHub: As an open-source project, BookHub will store its source code, documentation, and bug tracker on GitHub so that everyone can access it from users and developers.
 # Code of Conduct 
 BookHub follows a standard code of conduct to ensure the community remains welcoming, respectful, and inclusive:
-Respectful Communication: All participants are expected to engage respectfully, ensuring that contributions are constructive and considerate.
-Inclusive Participation: We welcome contributors of all experience levels, backgrounds, and identities. Discrimination of any kind will not be tolerated.
-Reporting Violations: If you observe behavior that violates this code, please report it to the project maintainers for resolution.
+-Respectful Communication: All participants are expected to engage respectfully, ensuring that contributions are constructive and considerate.
+-Inclusive Participation: We welcome contributors of all experience levels, backgrounds, and identities. Discrimination of any kind will not be tolerated.
+-Reporting Violations: If you observe behavior that violates this code, please report it to the project maintainers for resolution.
 # Announcing 
 Announcements are a key part of our project and will be featured prominently. They will consist of brief, keyword-rich paragraphs that provide essential updates. However, since this is a course project, all announcements will remain private and internal, visible only to our team members, ensuring that project developments are kept within our group. 
