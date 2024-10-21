@@ -75,7 +75,7 @@ Developer documentation is typically written by developers and is aimed at those
 For the BookHub project, wikis will be used to structure and organize all developer-related information. You can find the developer documentation within the design documents.
 # Hosting 
 The BookHub system will be hosted on:
-GitHub: As an open-source project, BookHub will store its source code, documentation, and bug tracker on GitHub so that everyone can access it from users and developers.
+- GitHub: As an open-source project, BookHub will store its source code, documentation, and bug tracker on GitHub so that everyone can access it from users and developers.
 # Code of Conduct 
 BookHub follows a standard code of conduct to ensure the community remains welcoming, respectful, and inclusive:
 - Respectful Communication: All participants are expected to engage respectfully, ensuring that contributions are constructive and considerate.
