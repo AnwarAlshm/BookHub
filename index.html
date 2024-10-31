@@ -4,46 +4,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookHub</title>
-    <!-- This is Eric Meyers CSS reset -->
     <link rel="stylesheet" href="css-reset.css">
-
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <style>
+        .swiper-slide {
+            position: relative;
+        }
+
+        .quote {
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: white;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px;
+            border-radius: 5px;
+            font-size: 24px;
+            text-align: center;
+            max-width: 80%;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>BookHuB</h1>
-
-        </header>
-
-        <nav>
-            <a href="http://">Download</a>
-            <a href="http://">Use</a>
-            <a href="http://">Develop</a>
-        </nav>
-
-
-        <main>
-            <div class="photo">
-                large photo
+    <header>
+        <img src="BookHub-Logo.png" alt="BookHub Logo">
+        <div>
+            <a href="#">ENGLISH</a>
+            <a href="#">中文(简体)</a>
+            <a href="#">Deutsch</a>
+            <a href="#">Español</a>
+            <a href="#">Français</a>
+            <a href="#">Italiano</a>
+            <a href="#">More</a>
+        </div>
+    </header>
+    <nav>
+        <a href="#">DOWNLOAD</a>
+        <a href="#">DISCOVER</a>
+        <a href="#">GET HELP</a>
+        <a href="#">IMPROVE IT</a>
+        <a href="#">EVENTS</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">DONATE</a>
+    </nav>
+    <main>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="img1.jpg" alt="Slide 1" />
+                    <div class="quote">"A library is not a luxury but one of the necessities of life." - Henry Ward Beecher</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img2.jpg" alt="Slide 2" />
+                    <div class="quote">"Libraries are the backbone of a civilized society." - Anonymous</div>
+                </div>
+                <div class="swiper-slide">
+                    <img src="img3.jpg" alt="Slide 3" />
+                    <div class="quote">"The only thing that you absolutely have to know is the location of the library." - Albert Einstein</div>
+                </div>
             </div>
-            <div class="free">
-                BookHub is Free and open source .....
-                <br>
-                <br>
-                <br>
-                Maybe a button to download and another to use
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+        <div class="container">
+            <h1>Your private, free office suite</h1>
+            <p>BookHub is a private, free and open-source office suite – the successor project to OpenOffice. It's compatible with Microsoft Office/365 files (.doc, .docx, .xls, .xlsx, .ppt, .pptx) and is backed by a non-profit organisation.</p>
+            <div class="feature-list">
+              <div class="feature-item">
+                <h3>Private and Secure</h3>
+                <p>Your data is stored locally on your device, ensuring privacy and security.</p>
+              </div>
+              <div class="feature-item">
+                <h3>Free and Open-Source</h3>
+                <p>BookHub is completely free to use and maintained by a community of contributors.</p>
+              </div>
+              <div class="feature-item">
+                <h3>Cross-Platform Compatibility</h3>
+                <p>Works seamlessly across Windows, Mac, and Linux operating systems.</p>
+              </div>
+              <div class="feature-item">
+                <h3>Backed by a Non-Profit</h3>
+                <p>BookHub is supported by a non-profit organization, ensuring its long-term sustainability.</p>
+              </div>
             </div>
-            <div class="announcements">
-                
+        </div>
+        <section class="posts">
+            <h2>Posts</h2>
+            <div class="post">
+                <h3>Introducing BookHub v2.0: Enhancing Library Management</h3>
+                <p>2024-11-15</p>
+                <p>We are thrilled to announce the release of BookHub v2.0, our latest update that takes library management to new heights. This version introduces a suite of powerful features designed to streamline your library operations and provide an exceptional experience for both librarians and patrons. [...]</p>
+                <a href="#">read more »</a>
             </div>
-        </main>
+            <div class="post">
+                <h3>BookHub Meets GDPR: Safeguarding Your Library's Data Privacy</h3>
+                <p>2024-10-20</p>
+                <p>In today's digital landscape, data privacy has become a paramount concern for organizations of all sizes. As a leading library management system, BookHub takes pride in its commitment to protecting the sensitive information entrusted to us by our users. [...]</p>
+                <a href="#">read more »</a>
+            </div>
+        </section>
+        
+        <div class="bookhub-features">
+            <div class="feature-item">
+                <img src="img1.jpg" alt="Feature 1">
+                <h3>Comprehensive Library Management</h3>
+                <p>BookHub offers a complete solution for managing your library, including cataloging, circulation, and patron management.</p>
+                <a href="#" class="feature-button">Learn More</a>
+            </div>
+            <div class="feature-item">
+                <img src="img2.jpg" alt="Feature 2">
+                <h3>Intuitive Interface</h3>
+                <p>The user-friendly interface of BookHub makes it easy for librarians and patrons to navigate and access information.</p>
+                <a href="#" class="feature-button">Learn More</a>
+            </div>
+            <div class="feature-item">
+                <img src="img3.jpg" alt="Feature 3">
+                <h3>Seamless Integration</h3>
+                <p>BookHub seamlessly integrates with other systems, allowing                 <p>BookHub seamlessly integrates with other systems, allowing you to streamline your library operations.</p>
+                <a href="#" class="feature-button">Learn More</a>
+            </div>
+        </div>
+        
+        <section class="hero">
+            <div class="hero-content">
+                <h1>BookHub - Free and Open Source Reading Platform</h1>
+                <p>BookHub is a free and open source software platform for readers, authors, and book enthusiasts. Our development is open to new talent and ideas, and our platform is tested and used daily by a large and devoted user community.</p>
+                <a href="#" class="cta">Get Involved</a>
+            </div>
+            <div class="hero-image">
+                <img src="img5.jpg" alt="Book Community">
+            </div>
+        </section>
 
-        <footer>
-            <p>&copy; 2024 BookHuB website.</p>
-            <p>Copyright information:The source code of BookHub is licened under .....</p>
-        </footer>
+        <section class="follow-us">
+            <h2>Follow Us</h2>
+            <div class="follow-links">
+                <a href="#" class="follow-link">
+                    <img src="blog-icon.png" alt="BookHub Blog">
+                    <span>Our Blog</span>
+                </a>
+                <a href="#" class="follow-link">
+                    <img src="facebook-icon.png" alt="BookHub Facebook">
+                    <span>Facebook</span>
+                </a>
+                <a href="#" class="follow-link">
+                    <img src="youtube-icon.png" alt="BookHub YouTube">
+                    <span>YouTube</span>
+                </a>
+                <a href="#" class="follow-link">
+                    <img src="reddit-icon.png" alt="BookHub Reddit">
+                    <span>Reddit</span>
+                </a>
+            </div>
+        </section>
+       
+    </main>
 
-    </div>
+    <footer>
+        <p>&copy; 2024 BookHub - The Document Foundation. Copyright information: The source code of BookHub is licensed under ...</p>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
 </body>
 </html>
