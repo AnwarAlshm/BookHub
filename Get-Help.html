@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Help - BookHub</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        header {
+            background-color: #ffffff; /* Dark brown color */
+            color: #8B4513;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        /* Main Content */
+        main {
+            padding: 40px;
+        }
+
+        /* Section Styles */
+        h2 {
+            color: #8B4513; /* Dark brown color */
+            margin-top: 40px;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* FAQ Section */
+        .faq {
+            margin-bottom: 40px;
+        }
+
+        .faq-item {
+            margin-bottom: 15px;
+        }
+
+        /* Community Support */
+        .community-support {
+            margin-bottom: 40px;
+        }
+
+        /* Contact Section */
+        .contact {
+            margin-bottom: 40px;
+        }
+
+        /* Back to Top Button */
+        #backToTop {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: #8B4513; /* Dark brown color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #backToTop:hover {
+            background-color: #6f3c10; /* Darker brown on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Get Help - BookHub</h1>
+    </header>
+    <main class="container">
+        <section class="faq">
+            <h2>Frequently Asked Questions (FAQs)</h2>
+            <div class="faq-item">
+                <strong>Q: How do I install the project?</strong>
+                <p>A: You can find installation instructions in our <a href="#">Documentation</a>.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Q: How can I report a bug?</strong>
+                <p>A: Please report bugs on our <a href="#">GitHub Issues</a> page.</p>
+            </div>
+            <div class="faq-item">
+                <strong>Q: How can I contribute to the project?</strong>
+                <p>A: We welcome contributions! Check out our <a href="#">Contributing Guide</a> for more information.</p>
+            </div>
+        </section>
+
+        <section class="community-support">
+            <h2>Community Support</h2>
+            <p>Join our community forums and chat channels to get help from other users and contributors:</p>
+            <ul>
+                <li><a href="#">Community Forum</a></li>
+                <li><a href="#">Discord Channel</a></li>
+                <li><a href="#">Slack Group</a></li>
+            </ul>
+        </section>
+
+        <section class="documentation">
+            <h2>Documentation</h2>
+            <p>Comprehensive documentation is available to help you understand and use the project effectively:</p>
+            <ul>
+                <li><a href="#">User  Guide</a></li>
+                <li><a href="#">API Reference</a></li>
+                <li><a href="#">Tutorials</a></li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h2>Contact Us</h2>
+            <p>If you need further assistance, feel free to reach out to us:</p>
+            <ul>
+                <li>Email: <a href="mailto:support@bookhub.org">support                <li>Email: <a href="mailto:support@bookhub.org">support@bookhub.org</a></li>
+                <li>Twitter: <a href="https://twitter.com/bookhub" target="_blank">@BookHub</a></li>
+                <li>GitHub: <a href="https://github.com/bookhub" target="_blank">github.com/bookhub</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <button id="backToTop">Back to Top</button>
+
+    <script>
+        // JavaScript for Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+
+        // Show the button when scrolling down
+        window.onscroll = () => {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        };
+
+        // Scroll to top when the button is clicked
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll effect
+            });
+        });
+    </script>
+</body>
+</html>

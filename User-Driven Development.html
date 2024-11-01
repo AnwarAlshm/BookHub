@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-Driven Development</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            color: #8B4513;
+        }
+
+        /* Section Header */
+        h2 {
+            color: #8B4513;
+            margin-top: 20px;
+            cursor: pointer; /* Indicate that the headers are clickable */
+            border-bottom: 2px solid #8B4513; /* Underline effect */
+            padding-bottom: 5px; /* Space below the header */
+        }
+
+        h4 {
+            color: #8B4513;
+            margin-top: 15px;
+        }
+
+        /* Paragraphs */
+        p {
+            margin: 10px 0;
+            line-height: 1.5;
+        }
+
+        /* Lists */
+        ul {
+            margin: 10px 0 20px 20px;
+        }
+
+        /* Hover Effect for Links */
+        a {
+            color: #8B4513;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Form Styles */
+        form {
+            margin: 15px 0;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            width: calc(100% - 22px);
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #8B4513;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #6f3c10;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px 0;
+            background-color: #333;
+            color: white;
+        }
+
+        /* Back to Top Button */
+        #backToTop {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 15px;
+            background-color: #8B4513;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        #backToTop:hover {
+            background-color: #6f3c10;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>User-Driven Development</h1>
+    </header>
+
+    <main class="container">
+        <div class="development-section">
+            <h2>Feature Requests</h2>
+            <p>Submit and vote on feature requests to propose new functionality for our application. Your input shapes our development!</p>
+            <form action="submit_request.php" method="POST">
+                <input type="text" name="feature" placeholder="Propose a new feature" required>
+                <button type="submit">Submit Feature Request</button>
+            </form>
+            <h4>Existing Feature Requests</h4>
+            <ul>
+                <li>Feature 1 <button>Vote</button></li>
+                <li>Feature 2 <button>Vote</button></li>
+                <!-- Add more features as needed -->
+            </ul>
+
+            <h2>Issue Tracking</h2>
+            <p>Help us identify and resolve problems by reporting bugs and issues. Your feedback is crucial for improving our application.</p>
+            <form action="submit_issue.php" method="POST">
+                <input type ="text" name="issue" placeholder="Describe the issue" required>
+                <button type="submit">Report Issue</button>
+            </form>
+            <h4>Reported Issues</h4>
+            <ul>
+                <li>Issue 1 <button>Resolve</button></li>
+                <li>Issue 2 <button>Resolve</button></li>
+                <!-- Add more issues as needed -->
+            </ul>
+
+            <h2>Roadmap & Project Planning</h2>
+            <p>Check out our roadmap and project planning pages to gain visibility into the development process and upcoming features.</p>
+            <ul>
+                <li><a href="#">View Roadmap</a></li>
+                <li><a href="#">Project Planning</a></li>
+            </ul>
+
+            <h2>Tutorials & Guides</h2>
+            <p>Access tutorials and guides to learn how to contribute code or documentation effectively. Join our community of contributors!</p>
+            <ul>
+                <li><a href="#">Contributing Code</a></li>
+                <li><a href="#">Writing Documentation</a></li>
+            </ul>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Application Name. All rights reserved.</p>
+    </footer>
+
+    <button id="backToTop">Back to Top</button>
+
+    <script>
+        // JavaScript for Back to Top Button
+        const backToTopButton = document.getElementById('backToTop');
+
+        // Show the button when scrolling down
+        window.onscroll = () => {
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                backToTopButton.style.display = 'block';
+            } else {
+                backToTopButton.style.display = 'none';
+            }
+        };
+
+        // Scroll to top when the button is clicked
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth' // Smooth scroll effect
+            });
+        });
+    </script>
+</body>
+</html>

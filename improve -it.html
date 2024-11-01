@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Improve It - BookHub</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color:  #fff ; /* Dark brown color */
+    color: #8B4513;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 10px 0 0;
+}
+
+/* Main Content Styles */
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #8B4513; /* Dark brown color */
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #8B4513; /* Dark brown color */
+    outline: none;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #8B4513; /* Dark brown color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #6f3c10; /* Darker brown on hover */
+}
+
+/* Community Contributions List */
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #8B4513; /* Dark brown color */
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+</style>
+<body>
+    <header>
+        <h1>Improve It - BookHub</h1>
+        <p>Your feedback helps us grow! Share your ideas and report issues.</p>
+    </header>
+
+    <main>
+        <section id="feature-requests">
+            <h2>Feature Requests</h2>
+            <p>Have an idea for a new feature? Let us know!</p>
+            <form action="/submit-feature-request" method="POST">
+                <label for="feature-title">Feature Title:</label>
+                <input type="text" id="feature-title" name="feature-title" required>
+
+                <label for="feature-description">Description:</label>
+                <textarea id="feature-description" name="feature-description" rows="4" required></textarea>
+
+                <button type="submit">Submit Feature Request</button>
+            </form>
+        </section>
+
+        <section id="bug-reporting">
+            <h2>Bug Reporting</h2>
+            <p>Encountered a bug? Help us fix it by reporting it here.</p>
+            <form action="/submit-bug-report" method="POST">
+                <label for="bug-title">Bug Title:</label>
+                <input type="text" id="bug-title" name="bug-title" required>
+
+                <label for="bug-description">Description:</label>
+                <textarea id="bug-description" name="bug-description" rows="4" required></textarea>
+
+                <button type="submit">Submit Bug Report</button>
+            </form>
+        </section>
+
+        <section id="community-contributions">
+            <h2>Community Contributions</h2>
+            <p>Want to contribute to BookHub? Here’s how you can help:</p>
+            <ul>
+                <li>Write documentation</li>
+                <li>Report issues</li>
+                <li>Suggest improvements</li>
+                <li>Participate in discussions on our <a href="https://github.com/bookhub" target="_blank">GitHub</a> page</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Thank you for helping us improve BookHub!</p>
+    </footer>
+</body>
+</html>

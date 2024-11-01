@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f2f2f2;
+    background-color: #F5DEB3;
 }
 
 header {
-    background-color: #8B4513;
+    background-color: #ffffff;
     padding: 10px;
     color: white;
     display: flex;
@@ -20,7 +20,7 @@ header img {
 }
 
 header div a {
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     margin-left: 20px;
     font-size: 14px;
@@ -31,22 +31,32 @@ nav {
     display: flex;
     justify-content: center;
     padding: 10px 0;
+    margin-bottom: -90px;
 }
 
-nav a {
+nav a, .dropbtn {
     color: #8B4513;
     text-decoration: none;
-    margin: 0 10px;
-    font-size: 16px;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover, .dropdown:hover {
+    background-color: #A0522D;
+    color: white; 
 }
 
 main {
-    padding: 20px;
+    padding: 50px;
     color: #333;
 }
 
 .swiper {
-    width: 100%;
+    width: 60%;
     height: 400px;
     background-color: #d9d9d9;
 }
@@ -65,7 +75,6 @@ main {
 .slide-content h2 {
     font-size: 32px;
     margin-bottom: 20px;
-    color: #8B4513;
 }
 
 .slide-content p {
@@ -74,7 +83,7 @@ main {
     color: #555;
 }
 
-.slide-button {
+.slide-button, .feature-button, .free a, .get-involved {
     background-color: #8B4513;
     color: white;
     text-decoration: none;
@@ -86,15 +95,6 @@ main {
     font-size: 18px;
     margin: 40px 0;
     color: #8B4513;
-}
-
-.free a {
-    background-color: #8B4513;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    margin: 0 10px;
-    border-radius: 5px;
 }
 
 .announcements {
@@ -121,108 +121,42 @@ footer {
     border-radius: 8px;
 }
 
+.feature-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .feature-item {
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
-    margin: 0 20px;
+    margin: 10px;
     width: 300px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
+    transition: transform 0.3s;
 }
 
-.feature-item img {
-    max-width: 100px;
-    margin-bottom: 20px;
+.feature-item:hover {
+    transform: translateY(-5px);
 }
 
 .feature-item h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+    font-size: 20px;
     color: #8B4513;
+    margin-bottom: 10px;
 }
 
 .feature-item p {
     font-size: 14px;
     color: #666;
-    margin-bottom: 20px;
-}
-
-.feature-button {
-    background-color: #8B4513;
-    color: white;
-    text-decoration: none;
-    padding: 8px 16px;
-    border-radius: 5px;
-}
-
-.about-bookhub {
-    background-color: #e8e8e8;
-    padding: 40px 20px;
-    text-align: center;
-}
-
-.about-bookhub h2 {
-    font-size: 24px;
-    margin-bottom: 20px;
-    color: #8B4513;
-}
-
-.about-bookhub p {
-    font-size: 16px;
-    margin-bottom: 30px;
-    color: #555;
-}
-
-.get-involved {
-    background-color: #8B4513;
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-
-.feeds {
-    display: flex;
-    justify-content: center;
-    margin-top: 40px;
-    background-color: #ffffff;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.feed-item {
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 0 20px;
-    text-align: left;
-    width: 300px;
-}
-
-.feed-item h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #8B4513;
-}
-
-.feed-item p {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 20px;
-}
-
-.feed-item a {
-    color: #8B4513;
-    text-decoration: none;
-}
-
-.social-icons a {
-    margin: 0 5px;
+    line-height: 1.5;
 }
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 40px 20px;
     background-color: #ffffff;
     border-radius: 8px;
@@ -243,59 +177,11 @@ footer {
     margin-bottom: 30px;
 }
 
-.feature-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.feature-item {
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin: 10px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    width: calc(45% - 20px);
-    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
-}
-
-.feature-item:hover {
-    transform: translateY(-5px);
-}
-
-.feature-item h3 {
-    font-size: 20px;
-    color: #8B4513;
-    margin-bottom: 10px;
-}
-
-.feature-item p {
-    font-size: 14px;
-    color: #666;
-    line-height: 1.5;
-}
-
-@media (max-width: 768px) {
-    .feature-item {
-        width: 100%;
-    }
-
-    .container {
-        padding: 20px;
-    }
-
-    .container h1 {
-        font-size: 28px;
-    }
-
-    .container p {
-        font-size: 14px;
-    }
-}
-
 .posts {
     padding: 40px 20px;
     background-color: #fafafa;
+    margin: 50px 0 100px;
+    border-radius: 10px;
 }
 
 .posts h2 {
@@ -389,8 +275,7 @@ footer {
     justify-content: center;
     color: #fff;
     padding: 4rem 2rem;
-
-    color: #8B4513;
+    background-size: cover;
 }
 
 .hero-content {
@@ -432,4 +317,54 @@ footer {
 .hero-image img {
     max-width: 100%;
     height: auto;
+}
+
+.download-section {
+    background-color: #F5DEB3;
+    padding: 40px 80px;
+    text-align: center;
+}
+
+.download-section h2 {
+    font-size: 28px;
+    color: #8B4513;
+    margin-bottom: 20px;
+}
+
+.download-section p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.dropdown {
+    color: #8B4513;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; 
+}
+
+.dropdown-content a {
+    color: #8B4513;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Light grey on hover */
 }
