@@ -13,30 +13,38 @@ BookHub was the most agreed on name that is unique and easy to remember.
 BookHub is a free open-source project with a user-friendly interface. The platform is open to all users and developers, encouraging collaboration and innovation. Key features will include book cataloging, user administration, and loan tracking, all with the goal of increasing library operations and user pleasure. The system will be accessible to users, librarians, developers, and library staff.
 # Features and Requirements List
 # Features:
--User-Friendly Editor: A simple, minimalist editor that supports the insertion of dynamic content blocks. It is fully open source and extensible.
--Access for All: Both visitors and registered users can browse all categories and book titles.
--Simple Ordering Process: Users can effortlessly borrow and return things using the internet.
--Customizable Structure: Create any category, section, or flow to match your individual library requirements.
+- User-Friendly Editor: A simple, minimalist editor that supports the insertion of dynamic content blocks. It is fully open source and extensible.
+- Looking for Books: Both visitors and library members can browse all categories and book titles.
+- Simple Ordering Process: Users can effortlessly borrow and return things using the internet.
+- Library staff functionalities: a librarian can add user members and let him borrow book. Also, he can add new books to the Library system.
+- Customizable Structure: Create any category, section, or flow to match your individual library requirements.
 # Administrative Features:
--The most user-friendly open-source interface available today.
--Sorting and filtering are built-in capabilities, making it simple to manage thousands of records.
--Admins can manage user accounts, categories, and book listings.
--Order tracking enables administrators to handle and monitor book loans and returns.
--Advanced Reporting: Comprehensive reporting and data management capabilities for effective oversight.
+- The most user-friendly open-source interface available today.
+- Sorting and filtering are built-in capabilities, making it simple to manage thousands of records.
+- Admins can manage user accounts, categories, and book listings.
+- Order tracking enables administrators to handle and monitor book loans and returns.
+- Advanced Reporting: Comprehensive reporting and data management capabilities for effective oversight.
+  
 # Requirements:
--The project is built with HTML, CSS, PHP on an Apache server running XAMPP.
--Any text editor that you prefer, such as Atom or Visual Studio Code.
+- The project is built with JAVA.
+- You need to download an IDE and JDK to run the code.
+
 # Development Status
 Under Development — Currently in beta phase.
-The BookHub system has successfully finished its core design and early functionality.
-Ongoing development is centered on improving features such as book cataloging, user management, and loan monitoring, with assistance from developers and others who choose to participate.
+The BookHub system has successfully finished its core design and early functionality only with JAVA code.
+Ongoing development is centered on:
+- Improving user interface and developing a desktop application using other needed programming languages.
+- Adding Some functionalities and features for the library member to let him search, borrow and return books directly from the system without the need of the library staff.
+with assistance from developers and others who choose to participate.
 Each new feature and enhancement will be added to the repository as they are done, encouraging transparency and collaboration within the community.
+
 # Downloads
-1. To run the BookHub system, you must first download and install XAMPP.
-2. Download by clicking the download button in the platform.
-3. Install a text editor.
+1. To run the BookHub system, you must first download and install an IDE such as InteliJ or Visual Studio.
+2. Download JDK (JAVA Developement Kits) so you can compile and run JAVA code.
+3. Download BookHub by clicking the download button in the menu.
+4. Run the code in your IDE.
 Select your preferred text editor for coding, such as:
-Visual Studio Code, Atom or other text editor
+Visual Studio Code, Atom, InteliJ or other text editor
 # Version Control and Bug Tracker Access
 Version control and bug tracking are critical tools for the BookHub project. They are useful for:
 Developers and users: To obtain the most recent source code and make modifications or improvements.
