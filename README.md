@@ -49,7 +49,7 @@ BookHub encourages active communication among developers, users, and contributor
 - Mailing list: Google Groups will manage a mailing list for broader announcements, updates, and user submissions (questions, comments, or other feedback).
 # Developer Guidelines 
 To maintain quality and consistency across the project, BookHub follows these developer guidelines:
-- Code Standards: Follow PHP, HTML, and CSS best practices, ensuring code is clean, readable, and well-commented.
+- Code Standards: Follow JAVA best practices, ensuring code is clean, readable, and well-commented.
 - Commit Messages: Use clear and concise commit messages, indicating the scope of changes.
 # Documentation 
 Our documentation aims to provide an overview of what we have developed so far, even though the project is still a work in progress. The goal is to offer insights into the current functionality, as well as guidance on expected features and best practices. While we are new to managing an open-source project, this documentation will serve as a foundation for users and contributors to understand the system.
