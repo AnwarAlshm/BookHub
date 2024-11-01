@@ -27,7 +27,7 @@ header div a {
 }
 
 nav {
-    background-color: #F5DEB3;
+    background-color: #8B4513;
     display: flex;
     justify-content: center;
     padding: 10px 0;
@@ -35,7 +35,7 @@ nav {
 }
 
 nav a, .dropbtn {
-    color: #8B4513;
+    color: white;
     text-decoration: none;
     margin: 0 15px;
     font-size: 18px;

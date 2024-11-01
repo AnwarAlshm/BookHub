@@ -19,7 +19,7 @@
         .container {
             width: 80%;
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 100px auto;
             padding: 20px;
             background: #fff;
             border-radius: 8px;
@@ -34,12 +34,70 @@
             margin-bottom: 50px;
         }
 
+        nav {
+            background-color: #8B4513;
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+            margin-bottom: -90px;
+        }
+
+        nav a, .dropbtn {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        nav a:hover, .dropdown:hover {
+            background-color: #A0522D;
+            color: white; 
+        }
+
+        .dropdown {
+            color: #8B4513;
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 160px;
+            background-color: #fff;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+            border-radius: 5px;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block; 
+        }
+
+        .dropdown-content a {
+            color: #8B4513;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            transition: background-color 0.3s ease;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1; /* Light grey on hover */
+        }
+
+
         h1 {
             margin: 0;
         }
 
         /* Main Content */
         main {
+            margin-top: 100px;
             padding: 40px;
         }
 
@@ -126,6 +184,26 @@
     <header>
         <h1>Support BookHub</h1>
     </header>
+    <nav style="background-color: #8B4513; color: white;">
+        
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+            <button style="background-color: transparent; border: none;  font-weight: bold; color: white; font-size: 19px; padding: 10px 20px; cursor: pointer;">DOWNLOAD</button>
+
+            <div class="dropdown-content">
+                <a href="#">Download for Windows</a>
+                <a href="#">Download for Mac</a>
+                <a href="#">Download for Linux</a>
+            </div>
+        </div>    
+        <a href="Discover.html">DISCOVER</a>
+        <a href="Get-Help.html">GET HELP</a>
+        <a href="improve -it.html" >IMPROVE IT</a>
+        <a href="About-us.html">ABOUT US</a>
+        <a href="Donate.html" style="color: burlywood">DONATE</a>
+        <a href="community-hub.html">COMMUNITY HUB</a>
+        <a href="User-Driven Development.html">USER-DRIVEN DEVOLOPMENT</a>
+    </nav>
     <main class="container">
         <div class="donation-options">
             <button>Donate via PayPal</button>
