@@ -32,9 +32,9 @@ The BookHub system has successfully finished its core design and early functiona
 Ongoing development is centered on improving features such as book cataloging, user management, and loan monitoring, with assistance from developers and others who choose to participate.
 Each new feature and enhancement will be added to the repository as they are done, encouraging transparency and collaboration within the community.
 # Downloads
-1-To run the BookHub system, you must first download and install XAMPP.
-2-Download by clicking the download button in the platform.
-3-Install a text editor.
+1. To run the BookHub system, you must first download and install XAMPP.
+2. Download by clicking the download button in the platform.
+3. Install a text editor.
 Select your preferred text editor for coding, such as:
 Visual Studio Code, Atom or other text editor
 # Version Control and Bug Tracker Access
