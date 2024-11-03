@@ -64,16 +64,16 @@ Our documentation aims to provide an overview of what we have developed so far, 
 It is important to note that the documentation is not yet fully complete and will be updated by a project moderator as new features are added and improvements are made. We encourage feedback and contributions to help us enhance the documentation over time.
 # Maintaining a FAQ
 Maintaining a Frequently Asked Questions (FAQ) section helps users quickly find answers to common queries and understand how to use the system effectively. Below are some example questions and answers we could include in the BookHub FAQ:
-1. How do I borrow or return a book?
-   To borrow or return a book, simply login to your account, search for the book you want, and follow the instructions to complete the process. For returning, visit the "My Loans" section and follow the return procedure.
-2. Why do I need to provide my email address when signing up?
-   Your email is required for account confirmation and notifications regarding book loans, returns, and due dates. This helps ensure smooth communication between users and the library.
+1. Who is the user of the system?
+   In the current development state, the only user of the system is the library staff(librarian). He will use the system to manage the library and to serve library members.
+2. How to use the code for managing my library?
+   You need to save all the 3 source code files locally within the same folder, then you will run only the "LibraryMain" file to make a system for you library.
 3. How do I check the availability of a book?
-   To check if a book is available, use the search function on the platform and look for the availability status displayed next to the title. If the book is currently borrowed, you can reserve it for when it becomes available.
-4. Can I extend my loan if I need the book for longer?
-   Yes, you can extend your loan period if the book is not requested by another user. Go to your account, find the book in your "My Loans" section, and select the option to renew it.
-5. How can I report an issue or request support?
-   If you encounter any issues or need assistance, you can report them through the "Help & Support" section on the platform or by contacting our support team via email.
+   To check if a book is available, choose service (10) named "Is the book issued?" to use the accession number of the book to determine if it is issued or not. If the book is not issued, this means that it is avaialbe to be issued.
+4. How can I modify the information of a book?
+   In the current state, there is no function to do so, you can only delete the book and add it again with the new modifications.
+5. Can I change in the code or add functinalities?
+   Yes, you can change the code to meet your requirements. You can do this by your own or you can contribute and join other develpoers, BUT, consider that the code is licensed under GNU General Public License.
 6. Is BookHub free to use?
    Yes, BookHub is completely free and open-source. Libraries and users can take advantage of its features without any cost.
 7. How do I stay informed about new features and updates?
